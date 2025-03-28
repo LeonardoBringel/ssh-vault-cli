@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "ssh-vault-cli"
+version = "0.1.0"
+description = "cli for managing ssh conections"
+authors = ["LeonardoBringel <leo.sbringel@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
